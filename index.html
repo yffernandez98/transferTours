@@ -28,13 +28,38 @@
   <!-- Main CSS File -->
   <link href="assets/css/main.css" rel="stylesheet">
 
-  <!-- =======================================================
-  * Template Name: Logis
-  * Template URL: https://bootstrapmade.com/logis-bootstrap-logistics-website-template/
-  * Updated: Aug 07 2024 with Bootstrap v5.3.3
-  * Author: BootstrapMade.com
-  * License: https://bootstrapmade.com/license/
-  ======================================================== -->
+  <style>
+    .card-img {
+      text-align: center;
+    }
+    .card-img img {
+      display: inline-block;
+    }
+
+    .whatsapp-float {
+      position: fixed;
+      width: 60px;
+      height: 60px;
+      bottom: 30px;
+      right: 30px;
+      background-color: #25d366;
+      color: #fff;
+      border-radius: 50px;
+      text-align: center;
+      font-size: 36px;
+      box-shadow: 2px 2px 3px #999;
+      z-index: 1000;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      transition: background 0.3s;
+    }
+    .whatsapp-float:hover {
+      background-color: #128c7e;
+      color: #fff;
+      text-decoration: none;
+    }
+  </style>
 </head>
 
 <body class="index-page">
@@ -51,7 +76,7 @@
       <nav id="navmenu" class="navmenu">
         <ul>
           <li><a href="index.html" class="active">Inicio<br></a></li>
-          <li><a href="index.html">Servicios</a></li>
+          <li><a href="index.html#services">Servicios</a></li>
         </ul>
         <i class="mobile-nav-toggle d-xl-none bi bi-list"></i>
       </nav>
@@ -141,7 +166,7 @@
           <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="100">
             <div class="card">
               <div class="card-img">
-                <img src="assets/img/img_font.jpeg" alt="" class="img-fluid">
+                <img src="assets/img/services_3.jpeg" alt="" class="img-fluid">
               </div>
               <h3>Transporte Personal</h3>
               <p>Brindamos servicios personalizados a particulares apoyándolos en sus necesidades de movilización de trabajo, negocios y ocio asegurando seguridad y confianza para cada miembro de la familia y/o amigos, así mismo nos pueden confiar cualquier actividad que no puedan hacer personalmente.</p>
@@ -151,7 +176,7 @@
           <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="200">
             <div class="card">
               <div class="card-img">
-                <img src="assets/img/img_font.jpeg" alt="" class="img-fluid">
+                <img src="assets/img/services_2.jpeg" alt="" class="img-fluid">
               </div>
               <h3><a href="#" class="stretched-link">Transporte Empresarial</a></h3>
               <p>Somos especialistas en el transporte para empleados de todas las empresas en cualquier actividad económica, en cargos administrativos y operativos, garantizando así su desplazamiento ágil, seguro y oportuno.</p>
@@ -161,7 +186,7 @@
           <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="300">
             <div class="card">
               <div class="card-img">
-                <img src="assets/img/img_font.jpeg" alt="" class="img-fluid">
+                <img src="assets/img/services_1.jpeg" alt="" class="img-fluid">
               </div>
               <h3><a href="#" class="stretched-link">Tures Personalizados</a></h3>
               <p>Para sus viajes de turismo y/o aventura en Bogotá y Colombia, tenemos excelentes opciones en vehículos acorde a su necesidad que cumplen las mejores condiciones de seguridad y guías turísticos (en el idioma que se requiera, según disponibilidad) contamos un servicio apropiado para la mejor experiencia. Su viaje puede ser solo el servicio de transporte o todo incluido que lo recomendamos de acuerdo a nuestra experiencia incluyendo: snacks, entradas a los diferentes sitios y alimentación. Si está en tránsito en Bogotá aproveche esas horas para conocer sitios representativos. <br>
@@ -323,6 +348,10 @@
 
   <!-- Main JS File -->
   <script src="assets/js/main.js"></script>
+
+  <a href="https://wa.me/573161818111" class="whatsapp-float" target="_blank" title="Contáctanos por WhatsApp">
+    <i class="fab fa-whatsapp"></i>
+  </a>
 
 </body>
 
